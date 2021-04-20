@@ -35,7 +35,8 @@
 		return $p;	
 	}
 	$pnum=$price*200000;
-	echo "<center><table class='table table-striped table-condensed'>
+	echo "<center> Price: $price USD
+	<table class='table table-striped table-condensed'>
 	<tr>
 		<th width='80px' >Workers</th>	
 		<th width='80px'>Mining Power</th>
