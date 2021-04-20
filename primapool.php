@@ -20,21 +20,6 @@
 	if(!empty($_POST['address']))
 		$addressok = $_POST['address'];
 	
-	function get($url){
-		if(function_exists('file_get_contents'))
-		{
-			$file_contents = file_get_contents($url);
-		}
-		$res1 = explode(',',$file_contents);
-		$m=$res1[1];
-		$res2 = explode(':',$m);
-		$n=$res2[1];
-		$p1=substr($n,0,-1);
-		$p2=substr($n,1);
-		$p= round(floatval($p2),3);	
-		return $p;	
-	}
-	$pnum=$price*200000;
 	echo "<center> <b>Price: $price USD</b>
 	<table class='table table-striped table-condensed'>
 	<tr>
