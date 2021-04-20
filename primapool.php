@@ -39,7 +39,7 @@
 	<table class='table table-striped table-condensed'>
 	<tr>
 		<th width='80px' >Workers</th>	
-		<th width='80px'>Mining Power</th>
+		<th width='80px'>Shares/s</th>
 		<th width='80px'>Fees</th>
 		<th width='80px'>Port</th>
 		<th width='80px'>ValidShares</th>
@@ -68,14 +68,11 @@
 	<tr><td>Valid Shares</td>
 	<td>Invalid Shares</td>
 	<td>Shares/s</td>
-	<td>Mining Power</td></tr>
 	<tr><td>".$primapoollwks->workers->$addressok->shares;
 	echo "</td>";
 	echo "<td>".$primapoollwks->workers->$addressok->invalidshares;
 	echo "</td>";
 	echo "<td>".$primapoollwks->workers->$addressok->hashrateString;
-	echo "</td>";
-	echo "<td>".round($primapoollwks->workers->$addressok->hashrateString/2.2*1000, 6);
 	echo "</td></tr></table></div></center>";
 		}
 	}
