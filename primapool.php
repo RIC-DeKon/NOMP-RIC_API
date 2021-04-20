@@ -69,7 +69,6 @@
 								<center><input class="form-control" type="text" name="address" placeholder="RIC address" align=center required></center>
 							</div>
 							<div class="form-group">
-								<center><div class="g-recaptcha" data-sitekey="<?php echo ''; ?>"></div></center>
 								<br />
 								<center><button class="btn btn-primary" type="submit" name="submit">Submit</button></center>
 								<center><p class="text-center">Go to <a href="http://primapool.tk">PrimaPool</a></p></center>
